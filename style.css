@@ -41,7 +41,8 @@
 }
 
 .deal-container {
-    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -74,4 +75,32 @@
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+}
+
+.optional-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.delivary-img {
+    width: 50px;
+}
+
+.delivary-man {
+    text-align: center;
+}
+
+.delivary-paragraph {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
 }
