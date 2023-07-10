@@ -104,3 +104,35 @@
     font-weight: 600;
     line-height: 35px;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.image {
+    width: 200px;
+    height: 250px;
+}
+
+.instagram-title {
+    color: #272727;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.instagram-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
+}
